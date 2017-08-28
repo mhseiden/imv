@@ -1,9 +1,11 @@
-html, body, div, * {
-  font-family: 'Open Sans', sans-serif;
+html, body, div, p, * {
+  font-family: 'Oswald:500, Open Sans', sans-serif;
   font-size: 16px;
   /* eq to 1rem */
   box-sizing: border-box;
-  user-select: none; }
+  user-select: none;
+  color: rgba(0, 0, 0, 0.75);
+  text-transform: uppercase; }
 
 .container {
   margin: 0 auto;
@@ -12,11 +14,12 @@ html, body, div, * {
 
 .header .title {
   margin: 0;
-  padding: 3rem;
+  padding: 2.5rem 0 2rem 0;
   width: 100%;
   font-size: 4rem;
   text-align: center;
-  cursor: default; }
+  cursor: default;
+  font-weight: 500; }
 
 .header p {
   text-align: center; }

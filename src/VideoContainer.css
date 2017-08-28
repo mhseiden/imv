@@ -21,16 +21,30 @@
   display: none;
   z-index: 1000; }
 
-.MediaControls {
-  width: 100%;
+.MediaControls .Left, .MediaControls .Right {
   display: flex;
-  justify-content: space-between; }
+  height: 2rem; }
 
-.MediaControls .Left,
+.MediaControls .Left {
+  float: left; }
+
 .MediaControls .Right {
-  display: flex; }
+  float: right; }
+  .MediaControls .Right .Item {
+    margin-left: 0.3rem; }
 
 .MediaControls .Item {
-  margin: 0 0.5rem;
+  font-weight: 500;
   line-height: 2rem;
   cursor: pointer; }
+
+.ArtistStatement {
+  margin-top: 2rem;
+  font-weight: 300; }
+  .ArtistStatement h2 {
+    text-align: center;
+    cursor: default; }
+  .ArtistStatement p, .ArtistStatement a {
+    text-transform: none;
+    text-decoration: none;
+    user-select: auto; }

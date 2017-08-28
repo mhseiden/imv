@@ -27,18 +27,38 @@
 }
 
 .MediaControls {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
+  .Left, .Right {
+    display: flex;
+    height: 2rem;
+  }
 
-.MediaControls .Left,
-.MediaControls .Right {
-  display: flex;
+  .Left {
+    float: left;
+  }
+  .Right {
+    float: right;
+    .Item { margin-left: 0.3rem; }
+  }
 }
 
 .MediaControls .Item {
-  margin: 0 0.5rem;
+  font-weight: 500;
   line-height: 2rem;
   cursor: pointer;
+}
+
+.ArtistStatement {
+  margin-top: 2rem;
+  font-weight: 300;
+
+  h2 {
+    text-align: center;
+    cursor: default;
+  }
+
+  p, a {
+    text-transform: none;
+    text-decoration: none;
+    user-select: auto;
+  }
 }

@@ -115,16 +115,23 @@ export default class VideoContainer extends PureComponent<Props, State> {
               <div 
                 className="Item"
                 onClick={() => this.onSetVideo(0)}
-              >Video 1</div>
+              >Cape Cod &middot;</div>
               <div 
                 className="Item"
                 onClick={() => this.onSetVideo(1)}
-              >Video 2</div>
+              >Fireworks &middot;</div>
               <div 
                 className="Item"
                 onClick={() => this.onSetVideo(2)}
-              >Video 3</div>
+              >Boston</div>
             </div>
+          </div>
+          <div className="ArtistStatement">
+            <h2>Artist's Statement</h2>
+            <p>This project is about memory. More specifically, this project is about memories I have of Boston and of college life in general. Hopefully there are some pieces we can all relate to.</p>
+            <p>Some memories are slow, some move at high speed. When we think back, we glorify certain moments and we minimize others. We fictionalize and we pick our memories apart. We pick and choose which experiences we want to remember, which we choose to ignore, and which memories we want to relive over and over again.</p>
+            <p>This project is for you to experience in dierent ways, with dierent points of view, as many times as you want.</p>
+            <p><a href="https://www.jamiekaplancreative.com">&nbsp;&mdash; Jamie Kaplan</a></p>
           </div>
         </div>
       </div>
