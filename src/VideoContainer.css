@@ -1,0 +1,36 @@
+.VideoContainer {
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  flex-direction: column; }
+
+.RegionContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  z-index: 1200; }
+
+.CanvasElement {
+  display: block;
+  z-index: 1100; }
+
+.MediaContainer {
+  display: none;
+  z-index: 1000; }
+
+.MediaControls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.MediaControls .Left,
+.MediaControls .Right {
+  display: flex; }
+
+.MediaControls .Item {
+  margin: 0 0.5rem;
+  line-height: 2rem;
+  cursor: pointer; }
