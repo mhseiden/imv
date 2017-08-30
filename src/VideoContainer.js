@@ -65,7 +65,7 @@ export default class VideoContainer extends PureComponent<Props, State> {
   }
 
   render() {
-    const { height, width, audio } = this.props;
+    const { height, width } = this.props;
     const { renderGrid } = this.state;
 
     const isActive = (renderGrid == null) || renderGrid.active;

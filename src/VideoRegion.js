@@ -15,7 +15,7 @@ export default class VideoRegion extends PureComponent<Props, {}> {
   }
 
   render() {
-    const { height, width, index } = this.props;
+    const { height, width } = this.props;
     const style = { height, width };
     return (
       <div

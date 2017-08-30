@@ -8,12 +8,12 @@ import './App.css';
 
 const LOAD_EVENT = "canplay";
 const AUDIO_URL = "https://www.dropbox.com/s/k2tyb3tt61ctay0/AboutToday_5min.mp3?dl=1";
-const VIDEO_HEIGHT = 540;
-const VIDEO_WIDTH = 720;
+const VIDEO_HEIGHT = 524;
+const VIDEO_WIDTH = 699;
 const VIDEO_URLS = [
-  "https://www.dropbox.com/s/s06q85t63eps4ai/CapeCod_5min_Cropped.mp4?dl=1",
-  "https://www.dropbox.com/s/ckvu9uowgm715d2/FireworksCropped.mp4?dl=1",
-  "https://www.dropbox.com/s/rs2hga12fmto7b8/Timelapse_5min_Cropped.mp4?dl=1"
+  "https://www.dropbox.com/s/2u0ri73e73oyurs/CapeCod_5min_Cropped.mp4?dl=1",
+  "https://www.dropbox.com/s/req19nfgv7p8maz/Fireworks_5min_Cropped_720p.mp4?dl=1",
+  "https://www.dropbox.com/s/kho6vlu5n9fhhan/Timelapse_5min_Cropped.mp4?dl=1"
 ];
 
 function createVideoElement(url: string): any {
