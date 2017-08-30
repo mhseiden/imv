@@ -4,8 +4,8 @@ import VideoRegion from './VideoRegion.js';
 import RenderGrid from './RenderGrid.js';
 import "./VideoContainer.css";
 
-const REGIONS_X = 4;
-const REGIONS_Y = 3;
+const REGIONS_X = 5;
+const REGIONS_Y = 4;
 const REGION_COUNT = REGIONS_X * REGIONS_Y;
 
 type Props = {|
